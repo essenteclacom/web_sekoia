@@ -371,7 +371,7 @@ select{
     --tw-backdrop-invert: ;
     --tw-backdrop-opacity: ;
     --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia: 
+    --tw-backdrop-sepia:
 }
 .container{
     margin-left:auto;
@@ -1094,7 +1094,7 @@ html{
     content: "";
     width: 60%;
     height: 3px;
-    background: rgb(17, 32, 140);
+    background: #8A8C2B;
     position: absolute;
     top: 0;
     left: 0;
@@ -1104,17 +1104,16 @@ html{
 
 
 .bg-primary{
-    --tw-bg-opacity:1;
-    background-color:rgb(28 64 195/var(--tw-bg-opacity))
+    background-color:#8A8C2B
 }
 .bg-secondary{
-    background-color:rgb(5, 9, 78)
+    background-color:#8A8C2B
 }
 .bg-third{
     background-color:rgb(17, 32, 140)
 }
 .bg-quarter{
-    background-color:rgb(17, 32, 137)
+    background-color:#8A8C2B
 }
 .bg-contact{
     background-color: rgb(250, 250, 255);
@@ -1126,7 +1125,7 @@ html{
     background-color: rgb(239, 239, 239);
 }
 .gradient-cucciara{
-    background-image: linear-gradient(to right, #112089 , #2863F4);
+    background-image: linear-gradient(to right, #8A8C2B , #EADF57);
   }
 .bg-transparent{
     background-color:transparent
@@ -1157,7 +1156,7 @@ html{
 }
 .bg-cyan-20{
     --tw-bg-opacity:1;
-    background-color:rgb(141 222 247/var(--tw-bg-opacity)) 
+    background-color:rgb(141 222 247/var(--tw-bg-opacity))
 }
 .bg-button {
     background-color: #8ddef7
@@ -1423,14 +1422,16 @@ html{
     color:rgb(255 255 255/var(--tw-text-opacity))
 }
 .text-primary{
-    --tw-text-opacity:1;
-    color:rgb(28 64 195/var(--tw-text-opacity))
+    color:#8A8C2B
 }
 .text-color-cucchiara{
-    color:rgb(17, 32, 140)
+    color:#8A8C2B
+}
+.text-secundary{
+    color:#EADF57
 }
 .border-color-cucchiara{
-    border-color: rgb(17, 32, 140)
+    border-color: #8A8C2B
 }
 .text-grey-5{
     color:rgb(167 167 167)
@@ -1691,13 +1692,13 @@ ul, ol {
 .w3rcontainer{
     border: 1px solid rgb(17, 32, 140);
     border-radius: 2px;
- } 
+ }
  .hover-underline-animation {
    display: inline-block;
    position: relative;
-   color:rgb(17, 32, 140);
+   color:#8A8C2B
  }
- 
+
  .hover-underline-animation:after {
    content: '';
    position: absolute;
@@ -1706,11 +1707,11 @@ ul, ol {
    height: 2px;
    bottom: 0;
    left: 0;
-   background-color: rgb(17, 32, 140);
+   background-color: #8A8C2B;
    transform-origin: bottom right;
    transition: transform 0.25s ease-out;
  }
- 
+
  .hover-underline-animation:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
@@ -1718,7 +1719,7 @@ ul, ol {
 
 /*CSS to animated flip 3d cards*/
 .wrapper-card, .single-card {
-	position: relative; 
+	position: relative;
 }
 .wrapper-card {
 	perspective: 900px;
@@ -1733,7 +1734,7 @@ ul, ol {
 .front-card, .back-card {
 	position: relative;
 	top: 0;
-	left: 0; 
+	left: 0;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -1839,16 +1840,16 @@ ul, ol {
     }
     .xxs\:h-16{
         height:4rem
-    }  
+    }
     .xxs\:h-20{
         height:5rem
-    } 
+    }
     .xxs\:h-24{
         height:6rem
     }
     .xxs\:h-28{
         height:7rem
-    }  
+    }
     .xxs\:h-32{
         height:8rem
     }
@@ -1936,7 +1937,7 @@ ul, ol {
     }
     .xs\:justify-end {
         justify-content: flex-end;
-    }	
+    }
     .xxs\:text-center{
         text-align:center
     }
@@ -2210,7 +2211,7 @@ ul, ol {
     }
     .xs\:h-c-4{
         height:4.25rem
-    }  
+    }
     .xs\:h-20{
         height:5rem
     }
@@ -2289,7 +2290,7 @@ ul, ol {
     }
     .xs\:justify-end {
         justify-content: flex-end;
-    }	
+    }
     .xs\:text-center{
         text-align:center
     }
@@ -2760,7 +2761,7 @@ ul, ol {
     }
 }
 /*lg*/
-@media screen and (min-width:1024px) { 
+@media screen and (min-width:1024px) {
     .container{
         max-width:1024px;
         padding-left:3rem;
@@ -2859,7 +2860,7 @@ ul, ol {
     }
     .lg\:grid-flow-col{
         grid-auto-flow: column;
-    }	
+    }
     .lg\:grid-cols-3{
         grid-template-columns:repeat(3,minmax(0,1fr))
     }
@@ -2883,7 +2884,7 @@ ul, ol {
     .lg\:border-t-2{
         border-top-width:2px
     }
-    .lg\:px-9{	
+    .lg\:px-9{
         padding-left: 2.25rem; /* 36px */
         padding-right: 2.25rem; /* 36px */
     }

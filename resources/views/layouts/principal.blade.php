@@ -78,27 +78,27 @@
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
                                     <a href="/acercade">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Nosotros</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-color-cucchiara">Nosotros</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/servicios">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Servicios</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-color-cucchiara">Servicios</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/fondos">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-color-cucchiara">Fondos</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/investigacion">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-color-cucchiara">Research</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/opereonline">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-color-cucchiara">Opere online</span>
                                         <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
                                 </li>
@@ -211,7 +211,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid justify-items-center items-center gap-0 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 py-6">
+                        <div class="grid justify-items-center items-center gap-0 xxs:grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 py-6">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>
@@ -229,38 +229,13 @@
                             </div>
                             <div>
                                 <a href="https://www.mav-sa.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_05.png') }}" class="" alt="footer_05"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
-                                    <div><img src="{{ asset('/img/footer_06.png') }}" class="" alt="footer_06"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cnv.gov.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="" alt="footer_08"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cadab.org.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_07.png') }}" class="" alt="footer_07"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.mae.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_04"/></div>
-                                </a>
-                            </div>
-                            <div class="">
-                                <a class="" href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:max-w-xs xl:max-w-xs md:w-full lg:w-40 xl:w-60 md:ml-0 lg:ml-12 xl:ml-20" alt="footer_07"/></div>
+                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="" alt="footer_04"/></div>
                                 </a>
                             </div>
                         </div>
-                        <div class="text-center py-6">
-                            <div> ALyC Integral registro Nro. 265 CNV |Miembro de BYMA Nro. 18 | Miembro de ROFEX Nro. 472 | Miembro de MAE Nro. 672</div>
-                            <div>© 2023 Cuchiarra Todos los derechos reservados. Diseño y desarollo porFolklore</div>
+                        <div class="text-center py-6 border-menu-line-top">
+                            <div></div>
+                            <div></div>
                         </div>
                     </div>
                 </div>

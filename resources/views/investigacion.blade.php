@@ -7,7 +7,7 @@
     <div style="background-image: url({{ asset('/img/fondoresearch.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
         <div class="container flex items-center justify h-full">
             <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
-                Los fundamentos son un elemento clave en la toma de decisiones. Por ello, realizamos un continuo monitoreo de las principales variables del mercado y la coyuntura macroeconómica local e internacional para apoyar la toma de decisiones por parte de nuestros clientes.
+                Realizamos un continuo monitoreo de las principales variables macroeconómicas y de mercado para apoyar la toma de decisiones de nuestros clientes.
             </p>
             <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
         </div>
@@ -15,7 +15,7 @@
     {{-- start last research --}}
     <div class="bg-white">
         <div class="container py-16 md:py-20">
-            <h3 class="text-left font-header text-xl font-bold sm:text-xl lg:text-xl text-color-cucchiara">
+            <h3 class="text-left font-header text-xl font-bolder sm:text-xl lg:text-xl text-color-cucchiara">
                 Últimos Informes de Research
             </h3>
             <div class="mx-auto grid w-full grid-cols-3 pt-4 w-full xxs:gap-2 xl:gap-10">
@@ -108,7 +108,7 @@
     </div>
     {{-- end last research --}}
     {{-- start search --}}
-    <div class="xs:h-20 lg:h-20"></div>  
+    <div class="xs:h-20 lg:h-20"></div>
     <div class="bg-search">
         <div class="container">
             <div class="relative -top-4">
