@@ -41,11 +41,34 @@ document.addEventListener('DOMContentLoaded', function () {
                 listas[i].classList.add('hidden')
             }
             const finalmenuid = finalmenu.id
-            const lista = document.getElementById('lista-' + finalmenuid) 
+            const lista = document.getElementById('lista-' + finalmenuid)
             const hidden = lista.classList.contains('hidden')
             if(hidden){
                 lista.classList.toggle('hidden')
             }
         })
     })
+
+    //search 1 level
+    //const submenus = document.querySelectorAll('.submenu')
+    submenus.forEach((submenu) => {
+        submenu.addEventListener('click', (e) => {
+            console.log('2')
+            e.stopPropagation()
+            const listas = document.querySelectorAll('.list')
+            for (var i = 0; i < listas.length; i++) {
+                listas[i].classList.add('hidden')
+            }
+            const finalmenuid = submenu.id
+            console.log(finalmenuid)
+            const lista = document.getElementById('lista-' + finalmenuid)
+            const hidden = lista.classList.contains('hidden')
+            if(hidden){
+                lista.classList.toggle('hidden')
+            }
+        })
+    })
+
+
+
 })

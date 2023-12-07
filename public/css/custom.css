@@ -1717,6 +1717,11 @@ ul, ol {
    transform-origin: bottom left;
  }
 
+ .selected-menu-underline {
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+}
+
 /*CSS to animated flip 3d cards*/
 .wrapper-card, .single-card {
 	position: relative;

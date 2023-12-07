@@ -15,6 +15,9 @@ use App\Http\Controllers\FondosController;
 use App\Http\Controllers\InvestigacionController;
 use App\Http\Controllers\OpereOnlineController;
 use App\Http\Controllers\AbrirCuentaController;
+use App\Http\Controllers\RentaGlobalController;
+use App\Http\Controllers\RentaFijaArgentinaController;
+use App\Http\Controllers\AccionesGlobalesController;
 use App\Http\Controllers\RegulacionesController;
 use App\Http\Controllers\SeleccionarTipoCuentaController;
 
@@ -25,6 +28,9 @@ Route::get('/fondos', FondosController::class);
 Route::get('/investigacion', InvestigacionController::class);
 Route::get('/opereonline', OpereOnlineController::class);
 Route::get('/abrircuenta', AbrirCuentaController::class);
+Route::get('/rentaglobal', RentaGlobalController::class);
+Route::get('/rentafijaargentina', RentaFijaArgentinaController::class);
+Route::get('/accionesglobales', AccionesGlobalesController::class);
 Route::get('/regulaciones', RegulacionesController::class);
 Route::get('/seleccionartipocuenta', SeleccionarTipoCuentaController::class);
 
