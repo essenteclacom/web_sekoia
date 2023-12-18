@@ -82,6 +82,11 @@ button,select{
     border-top: solid 2px;
     border-color: rgb(242 242 242/var(--tw-bg-opacity));
 }
+.border-menu-line-footer{
+    border-top: solid 2px;
+    border-color: #E5E5E5;
+}
+
 [type=button],[type=reset],[type=submit],button{
     -webkit-appearance:button;
     background-color:#8ddef7;
@@ -1603,6 +1608,7 @@ html{
 ul, ol {
     list-style:none;
 }
+/*Menu Header*/
 .nav-lang > li {
     float:left;
 }
@@ -1628,6 +1634,36 @@ ul, ol {
     top:0px;
 }
 .nav-lang li ul li ul li ul{
+    right:-346px;
+    top:0px;
+}
+
+/*Sub menu Fondos */
+.nav-fondos > li {
+    float:left;
+}
+.nav-fondos li button {
+    background-color:#ffffff;
+    text-decoration:none;
+    padding: 5px 36px 5px 12px;
+    display:block;
+}
+.nav-fondos li ul {
+    display:none;
+    position:absolute;
+    min-width:125px;
+}
+.nav-fondos li:hover > ul {
+    display:block;
+}
+.nav-fondos li ul li {
+    position:relative;
+}
+.nav-lang li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.nav-fondos li ul li ul li ul{
     right:-346px;
     top:0px;
 }

@@ -8,7 +8,7 @@
         <div style="background-image: url({{ asset('/img/fondoresearch.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify-center h-full">
                 <div class="flex flex-col justify-center items-center w-full">
-                    <h1 class="font-body text-white text-shadow font-bold text-3xl">Renta Global</h1>
+                    <h1 class="font-body text-white text-shadow font-bold text-3xl pb-4">Renta Global</h1>
                     <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
                         CyC Renta Global es una Nota Estructurada, un instrumento similar a un fondo de inversión cuya administración de cartera está a cargo de Sekoia Agente de Valores S.A. El fondo se compone mayormente de títulos de renta fija corporativa y soberana. En ciertos contextos, podrá tener en cartera acciones preferidas, bonos perpetuos y productos estructurados para buscar mayores retornos, siempre respetando los parámetros de diversificación y riesgos establecidos. Prioriza la búsqueda de valor en emisores con buena calidad crediticia. Diversifica su cartera geográficamente y por sectores. No puede incluir emisores Argentinos ni títulos con Ley Argentina. No tiene un objetivo de rendimiento y duration específicos, sino que mantiene flexibilidad para adecuarse a diferentes contextos globales
                     </p>
@@ -24,27 +24,27 @@
                     <div class="grid grid-cols-5 gap-0 content-start">
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                                <img src="{{ asset('/img/icon_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                                <img src="{{ asset('/img/icon_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                                <img src="{{ asset('/img/icon_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                                <img src="{{ asset('/img/icon_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                                <img src="{{ asset('/img/icon_05.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
                             </div>
                         </div>
                     </div>

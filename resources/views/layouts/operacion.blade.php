@@ -69,31 +69,43 @@
                         <div>
                         </div>
                         <div class="hidden lg:block">
-                            <ul class="flex items-center pt-5">
-                                <li class="group pl-6">
-                                    <a href="/acercade">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Nosotros</span>
+                            <ul class="flex items-center pt-5 nav-fondos">
+                                <li class="group pl-20">
+                                    <a href="/nosotros">
+                                        <span @if(request()->is('acercade')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/servicios">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Servicios</span>
+                                        <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Servicios</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
-                                    <a href="/fondos">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
+                                <li class="group pl-20 text-color-cucchiara">
+                                    <a class="flex items-center justify-center rounded bg-white text-base font-bold hover:bg-cyan-20 px-5 my-1">
+                                        Fondos
+                                        <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                     </a>
+                                    <ul>
+                                        <li class="text-color-cucchiara text-base font-bold w-56 my-1">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/rentaglobal">
+                                                Renta Global
+                                            </a>
+                                        </li>
+                                        <li class="text-color-cucchiara text-base font-bold w-56 my-1">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/accionesglobales">
+                                                Acciones Globales
+                                            </a>
+                                        </li>
+                                        <li class="text-color-cucchiara text-base font-bold w-56 my-1">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/rentafijaargentina">
+                                                Renta Fija Argentina
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/investigacion">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-6">
-                                    <a href="/opereonline">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
-                                        <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
+                                        <span @if(request()->is('investigacion')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
                                     </a>
                                 </li>
                             </ul>

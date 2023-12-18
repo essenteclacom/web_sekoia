@@ -1,6 +1,6 @@
 @extends('layouts.principal')
 
-@section('title', 'Home')
+@section('title', 'Inicio')
 
 @section('content')
     {{-- slide --}}
@@ -226,6 +226,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -239,6 +240,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -255,6 +257,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>

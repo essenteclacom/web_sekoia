@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AcercaDeController extends Controller {
+class DefaultController extends Controller {
     public function __invoke() {
-        return view('acercade');
+        return redirect('inicio');
     }
 }

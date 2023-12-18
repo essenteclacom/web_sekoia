@@ -1,6 +1,6 @@
 @extends('layouts.principal')
 
-@section('title', 'Renta Global')
+@section('title', 'Acciones Globales')
 
 @section('content')
     <div>
@@ -8,7 +8,7 @@
         <div style="background-image: url({{ asset('/img/fondoresearch.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify-center h-full">
                 <div class="flex flex-col justify-center items-center w-full">
-                    <h1 class="font-body text-white text-shadow font-bold text-3xl">Acciones Globales</h1>
+                    <h1 class="font-body text-white text-shadow font-bold text-3xl pb-4">Acciones Globales</h1>
                     <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
                         CyC Acciones Globales es una Nota Estructurada, un instrumento similar a un fondo de inversión cuya administración de cartera está a cargo de Sekoia Agente de Valores SA. El fondo se compone de acciones de compañías que cotizan en la bolsa de NY y de ETFs o Mutual Funds de renta variable que replican el avance de una determinada economía y/o sector, tanto de países emergentes como desarrollados. A su vez, CyC Acciones Global podrá contener instrumentos de cobertura contra el riesgo de mercado como el oro, bitcoin u opciones sobre activos subyacentes en cartera para una mejor administración del riesgo. Asimismo, en determinados contextos de mercado, el fondo podrá disponer de liquidez en cartera. Se diversifica la cartera geográficamente y por sectores combinando renta variable de compañías de crecimiento y de valor.
                     </p>
@@ -24,27 +24,27 @@
                     <div class="grid grid-cols-5 gap-0 content-start">
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                                <img src="{{ asset('/img/icon_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                                <img src="{{ asset('/img/icon_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                                <img src="{{ asset('/img/icon_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                                <img src="{{ asset('/img/icon_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/home_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                                <img src="{{ asset('/img/icon_05.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
                             </div>
                         </div>
                     </div>

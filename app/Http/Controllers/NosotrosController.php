@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class OpereOnlineController extends Controller {
+class NosotrosController extends Controller {
     public function __invoke() {
-        return view('opereonline');
+        return view('nosotros');
     }
 }

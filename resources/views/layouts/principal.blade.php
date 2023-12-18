@@ -4,15 +4,15 @@
         <meta charset="utf-8" />
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-        <title>CUCCHIARA - @yield('title')</title>
-        <meta property="og:title" content="Homepage | Cucchiara"/>
+        <title>SEKOIA - @yield('title')</title>
+        <meta property="og:title" content="Homepage | Sekoia"/>
         <meta property="og:locale" content="en_US"/>
         <link rel="canonical" href="//"/>
         <meta property="og:url" content="//"/>
         <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
-        <link rel="icon" type="image/png" href="{{ asset('/img/favicon-96x96.png') }}"/>
+        <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
-        <meta property="og:site_name" content="Cucchiara"/>
+        <meta property="og:site_name" content="Sekoia"/>
         <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@tailwindmade"/>
@@ -41,10 +41,10 @@
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/abrircuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
+                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
                                 Abrir cuenta
                             </a>
-                            <a href="/abrircuenta" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
+                            <a href="/iniciarsesion" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
                                 Ingresar
                             </a>
                             <div class="hidden lg:block">
@@ -56,7 +56,7 @@
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/home">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/eng">
                                                     ENG
                                                 </a>
                                             </li>
@@ -75,9 +75,9 @@
                         <div>
                         </div>
                         <div class="hidden lg:block">
-                            <ul class="flex items-center pt-5">
+                            <ul class="flex items-center pt-5 nav-fondos">
                                 <li class="group pl-20">
-                                    <a href="/acercade">
+                                    <a href="/nosotros">
                                         <span @if(request()->is('acercade')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
                                     </a>
                                 </li>
@@ -86,19 +86,32 @@
                                         <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Servicios</span>
                                     </a>
                                 </li>
-                                <li class="group pl-20">
-                                    <a href="/fondos">
-                                        <span @if(request()->is('fondos')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Fondos</span>
+                                <li class="group pl-20 text-color-cucchiara">
+                                    <a class="flex items-center justify-center rounded bg-white text-base font-bold hover:bg-cyan-20 px-5 my-1">
+                                        Fondos
+                                        <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                     </a>
+                                    <ul>
+                                        <li class="text-color-cucchiara text-base font-bold w-56 my-1">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/rentaglobal">
+                                                Renta Global
+                                            </a>
+                                        </li>
+                                        <li class="text-color-cucchiara text-base font-bold w-56 my-1">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/accionesglobales">
+                                                Acciones Globales
+                                            </a>
+                                        </li>
+                                        <li class="text-color-cucchiara text-base font-bold w-56 my-1">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/rentafijaargentina">
+                                                Renta Fija Argentina
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="group pl-20">
                                     <a href="/investigacion">
                                         <span @if(request()->is('investigacion')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-20">
-                                    <a href="/opereonline">
-                                        <span @if(request()->is('opereonline')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Opere online</span>
                                     </a>
                                 </li>
                             </ul>
@@ -117,19 +130,21 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/acercade"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
+                                <a href="/nosotros"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
                             </li>
                             <li class="py-4">
                                 <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/fondos"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
+                                <a href=""><span class="font-body font-semibold text-white">Fondos</span></a>
+                                <ul>
+                                    <li class="mt-2 pl-6"><a href="/rentaglobal" class="cursor-pointer text-white">Renta Global</a></li>
+                                    <li class="mt-2 pl-6"><a href="/accionesglobales" class="cursor-pointer text-white">Acciones Globales</a></li>
+                                    <li class="mt-2 pl-6"><a href="/rentafijaargentina" class="cursor-pointer text-white">Renta Fija Argentina</a></li>
+                                </ul>
                             </li>
                             <li class="py-4">
                                 <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/opereonline"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
                             </li>
                         </ul>
                     </div>
@@ -193,7 +208,7 @@
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/regulaciones">
-                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
+                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas<br/>Términos y condiciones</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
@@ -210,6 +225,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="py-6 border-menu-line-footer"></div>
                         <div class="grid justify-items-center items-center gap-0 xxs:grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 py-6">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
@@ -232,7 +248,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="text-center py-6 border-menu-line-top">
+                        <div class="text-center py-6 border-menu-line-footer">
                             <div></div>
                             <div></div>
                         </div>
