@@ -1218,7 +1218,7 @@ html{
     padding:.5rem
 }
 .p-custom-esp-buttom{
-    padding: 5px 12px 5px 12px
+    padding: 0px 12px 0px 12px
 }
 .py-6{
     padding-bottom:1.5rem;
@@ -1915,9 +1915,6 @@ ul, ol {
     .xxs\:h-88{
         height:22rem
     }
-    .xxs\:h-c-32{
-        height:32rem
-    }
     .xxs\:w-20 {
         width: 5rem;
     }
@@ -2276,9 +2273,6 @@ ul, ol {
     }
     .xs\:h-112{
         height: 28rem;
-    }
-    .xs\:h-c-34{
-        height:34rem
     }
     .xs\:w-48{
         width:12rem

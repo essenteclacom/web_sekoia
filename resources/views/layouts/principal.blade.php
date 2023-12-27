@@ -37,7 +37,7 @@
                     <div class="container flex items-center justify-between">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
+                                <img src="{{ asset('/img/logo_main.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
@@ -56,7 +56,7 @@
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/eng">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-1 pl-4" href="/eng">
                                                     ENG
                                                 </a>
                                             </li>
@@ -78,7 +78,7 @@
                             <ul class="flex items-center pt-5 nav-fondos">
                                 <li class="group pl-20">
                                     <a href="/nosotros">
-                                        <span @if(request()->is('acercade')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
+                                        <span @if(request()->is('nosotros')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
                                     </a>
                                 </li>
                                 <li class="group pl-20">
@@ -226,7 +226,7 @@
                             </div>
                         </div>
                         <div class="py-6 border-menu-line-footer"></div>
-                        <div class="grid justify-items-center items-center gap-0 xxs:grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 py-6">
+                        <div class="grid justify-items-center items-center gap-6 xxs:grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 py-6">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>

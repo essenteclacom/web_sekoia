@@ -4,7 +4,7 @@
 
 @section('content')
     {{-- slide --}}
-    <div style="background-image: url({{ asset('/img/fondoresearch.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
+    <div style="background-image: url({{ asset('/img/background_work.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
         <div class="container flex items-center justify h-full">
             <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
                 Realizamos un continuo monitoreo de las principales variables macroeconómicas y de mercado para apoyar la toma de decisiones de nuestros clientes.
@@ -424,6 +424,7 @@
         </div>
     </div>
     {{-- end search --}}
+    <div class="h-40"></div>
     {{-- newsletter --}}
     <div class="bg-quarter" id="newsletter">
         @if (session('status'))
@@ -512,6 +513,6 @@
         </div>
     </div>
     {{-- end newsletter --}}
-    <div class="h-[10rem]"></div>
+    <div class="h-40"></div>
     <script src="{{ asset('/js/main.js')}}"></script>
 @endsection
