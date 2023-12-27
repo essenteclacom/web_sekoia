@@ -17,7 +17,7 @@
                 <div class="flex flex-col">
                     <div class="flex justify-center pb-16" >
                         <a href="/">
-                            <img src="{{ asset('/img/Logo_Blanco-04.png') }}" class="xxs:w-56 xs:w-96 sm:w-[30rem] md:w-[34rem] lg:w-[34rem] xl:w-[34rem]" alt="logo image"/>
+                            <img src="{{ asset('/img/logo_main_blanco.png') }}" class="xxs:w-56 xs:w-96 sm:w-[30rem] md:w-[34rem] lg:w-[34rem] xl:w-[34rem]" alt="logo image"/>
                         </a>
                     </div>
                     <div class="my-5">
