@@ -146,9 +146,9 @@
                                 <div class="relative flex justify-center -top-16">
                                     <img src="{{ asset('/img/personas.png') }}" class="h-36" alt="development icon"/>
                                 </div>
-                                <div class="relative flex justify-center -top-10">
-                                    <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
-                                        Personas<br/>Físicas
+                                <div class="relative flex justify-center items-center -top-10 ">
+                                    <h3 class=" font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
+                                        Personas<br/>Humanas
                                     </h3>
                                 </div>
                             </div>
@@ -156,14 +156,15 @@
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
-                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
+                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
+                                        · Constancia de ingresos.<br/>
                                         · Documento de Identidad.<br/>
-                                        · Verificación de domicilio.<br/>
-                                        · Justificación de ingresos y patrimonio.<br/>
-                                        · En caso de contar con apoderado, documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.
+                                        · En caso de contar con apoderado, fotocopia del documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.<br/>
+                                        · Copias de las últimas Declaraciones Juradas impositivas (Ganancias y Bienes Personales).<br>
+                                        · Verificación de domicilio.
                                     </p>
                                 </div>
-                                <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-4">
+                                <div class="text-right xs:pt-0-5 lg:pt-4 px-9 pb-4 underline underline-offset-4">
                                     <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Abrir cuenta</a>
                                 </div>
                             </div>
@@ -177,7 +178,7 @@
                                 <div class="relative flex justify-center -top-16">
                                     <img src="{{ asset('/img/contratos.png') }}" class="h-36" alt="development icon"/>
                                 </div>
-                                <div class="relative flex justify-center -top-10">
+                                <div class="relative flex justify-center items-center -top-10">
                                     <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
                                         Personas<br/>Jurídicas
                                     </h3>
@@ -186,18 +187,17 @@
                         </div>
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
-                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
-                                        · Actas de Directorio / Asamblea con designación de cargos.<br/>
-                                        · Estatuto de la Sociedad.<br/>
-                                        · Registro de accionistas actualizado.<br/>
-                                        · Estados contables.<br/>
-                                        · Verificación de domicilio de la sociedad.<br/>
-                                        · De los representantes de la sociedad y beneficiarios finales.
-                                    </p>
-                                    <p class="font-body xxs:text-xxs xs:text-xxs pl-4 sm:text-xxs lg:text-xs">
-                                        · Documento de identidad<br/>
-                                        · Verificación de domicilio
+                                <div class="text-left text-white xs:px-1 sm:px-1 xxs:pt-1 xs:pt-1 sm:pt-1 md:pt-1 md:px-1 lg:px-1 lg:pt-1">
+                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
+                                        · Estatuto de la Sociedad, con constancia de su inscripción en el Registro Público de Comercio correspondiente a la jurisdicción del domicilio de la sede social.<br/>
+                                        · Registro de Accionistas actualizado a la fecha de apertura de cuenta.<br/>
+                                        · Acta de Asamblea aprobando el último Balance General conjuntamente con el Acta de Directorio que lo aprobó.<br/>
+                                        · Actas de Asamblea y Directorio con distribución de cargos actualmente vigente para los órganos de administración y fiscalización.<br/>
+                                        · Documento de Identidad y constancia de domicilio del/los representantes legales.<br/>
+                                        · Para casos de apoderados, vigencia del poder, documento de identidad y constancia de domicilio de los apoderados.<br/>
+                                        · Estados Contables que deberán estar certificados por auditor externo y legalizados por el Consejo Profesional correspondiente.<br/>
+                                        · Copia de declaraciones juradas del Impuesto a las Ganancias.<br/>
+                                        · Constancia de domicilio de la Sociedad.
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-4">

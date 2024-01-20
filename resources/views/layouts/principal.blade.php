@@ -37,7 +37,7 @@
                     <div class="container flex items-center justify-between">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/logo_main.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
+                                <img src="{{ asset('/img/logo_main.png') }}" class=" xxs:w-28 xs:w-48 sm:w-40 md:w-40 lg:w-44 xl:w-40" alt="logo image"/>
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
