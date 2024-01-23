@@ -166,7 +166,7 @@
                             </ul>
                         </div>
                     @endif
-                    <div class="container bg-contact" id="contact">
+                    <div class="container bg-contact sm:pl-32 sm:pr-32 xxs:pl-8 xxs:pr-8" id="contact">
                         <div class="relative xs:top-minus-1-2 top-minus-11">
                             <h2 class="text-color-cucchiara text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
                                 Contacto
@@ -194,7 +194,7 @@
                 </div>
                 {{-- end contact --}}
                 {{-- map --}}
-                <a href="https://goo.gl/maps/aD9gLy3DTLgALnwt5" target="blank">
+                <a href="https://maps.app.goo.gl/ZTq82vNgqsSVtb9i6" target="blank">
                     <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-color-cucchiara border-y-4" style="background-image: url({{ asset('/img/mapa_footer.png')}})"></div>
                 </a>
                 {{-- end map --}}
@@ -204,15 +204,15 @@
                         <div class="flex flex-row">
                             <div class="flex justify-between xxs:items-start xs:items-center sm:items-center md:items-center lg:items-start xxs:flex-col xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row xxs:w-3/5 xs:w-3/5 sm:w-3/5 md:w-3/5 lg:w-3/4 lg:pr-12 xl:pr-12">
                                 <div class="pt-1 xxs:pb-8 xs:pb-8">
-                                    <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-48" alt="logo image"/>
+                                    <img src="{{ asset('/img/logo_main.png') }}" class="w-48" alt="logo image"/>
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/regulaciones">
-                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas<br/>Términos y condiciones</div>
+                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
-                                    info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
+                                    info@cucchiara.com.ar<br/>Ruta 8 - KM 17500 -<br/>Zonamerica - Edificio EXPLORA -<br/>Of 018, Montevideo, Uruguay<br/>Tel: +598 2518 2340
                                 </div>
                             </div>
                             <div class="flex xxs:items-end xs:items-center sm:items-center md:items-center lg:items-start xxs:justify-end xs:justify-end sm:justify-end md:justify-end lg:justify-between xxs:flex-col-reverse xs:flex-col-reverse xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row xxs:w-2/5 xs:w-2/5 sm:w-2/5 md:w-2/5 lg:w-1/4 lg:pl-4 xl:pl-12">
@@ -225,8 +225,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="py-6 border-menu-line-footer"></div>
-                        <div class="grid justify-items-center items-center gap-6 xxs:grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 py-6">
+                        <div class="border-menu-line-footer"></div>
+                        <div class="grid justify-items-center items-center gap-6 xxs:grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 py-6 px-24">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>
@@ -249,8 +249,8 @@
                             </div>
                         </div>
                         <div class="text-center py-6 border-menu-line-footer">
-                            <div></div>
-                            <div></div>
+                            <div>Agente de Valores registro Nro. 2949 Banco Central del Uruguay</div>
+                            <div>© 2024 Sekoia Todos los derechos reservados. Diseño y desarollo por Folklore</div>
                         </div>
                     </div>
                 </div>
