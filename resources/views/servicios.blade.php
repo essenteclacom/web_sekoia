@@ -56,6 +56,20 @@
                         <img src="{{ asset('/img/servicio_03.png') }}" class="w-40" alt="servicio_03"/>
                     </div>
                 </div>
+                <div class="border border-services-c"></div>
+                <div class="container flex flex-row lg:px-40 py-32 items-center justify-center">
+                    <div class="mr-4">
+                        <img src="{{ asset('/img/servicio_02.png') }}" class="w-40" alt="servicio_02"/>
+                    </div>
+                    <div class="text-white xs:pl-3 lg:pl-20">
+                        <div class="text-xl font-bold text-left max-w-3xl">
+                            Fondos comúnes de inversión
+                        </div>
+                        <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-sm pt-5">
+                            Administramos nuestra propia gama de fondos de inversión, proporcionando soluciones de inversión a todos nuestros clientes. Los fondos pueden ser custodiados por entidades internacionales, lo que garantiza su accesibilidad y conveniencia. La instrumentación de cada fondo se realiza a traves de notas financieras estructuradas gestionadas por FlexFund. Por su parte The Bank of New York Mellon y Interactive Brokers actúan como custodios de los activos de renta fija y renta variable, respectivamente. Esta instrumentación minimiza los costos para el inversor al tiempo que maximiza la flexibilidad operacional.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

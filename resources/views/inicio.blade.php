@@ -42,7 +42,7 @@
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             Lo que hacemos
         </span>
-        <div class="grid grid-cols-3 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-16 md:pt-12">
+        <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-16 md:pt-12">
             <div class="flex flex-col justify-center items-center shadow-amplia bg-white rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-12">
                 <div>
                     <img src="{{ asset('/img/card_01.png') }}" alt="card_01" class="w-28"/>
@@ -69,7 +69,17 @@
                 </div>
                 <div class="flex items-center text-center">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Brokerage
+                        Operaciones financieras 
+                    </h3>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center shadow-amplia bg-white rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-12">
+                <div>
+                    <img src="{{ asset('/img/card_03.png') }}" alt="card_03" class="w-28"/>
+                </div>
+                <div class="flex items-center text-center">
+                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
+                        Fondos comunes<br>de inversión
                     </h3>
                 </div>
             </div>
@@ -78,7 +88,7 @@
     {{-- end cards --}}
     <div class="xxs:h-64 xs:h-56 sm:h-60 md:h-40 lg:h-60 xl:h-60"></div>
     {{-- open account --}}
-    <div class="container text-center">
+    <div class="container text-center pt-64">
         <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
             Abrí tu cuenta hoy
         </span>
