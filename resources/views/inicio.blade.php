@@ -75,7 +75,7 @@
             </div>
             <div class="flex flex-col justify-center items-center shadow-amplia bg-white rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-12">
                 <div>
-                    <img src="{{ asset('/img/card_03.png') }}" alt="card_03" class="w-28"/>
+                    <img src="{{ asset('/img/card_04.png') }}" alt="card_03" class="w-28"/>
                 </div>
                 <div class="flex items-center text-center">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">

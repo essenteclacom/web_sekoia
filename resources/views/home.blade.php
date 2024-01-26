@@ -9,27 +9,33 @@
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
                 <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
-                        Soluciones financieras<br/>integrales
+                        Invest globally with<br/>local advice
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
-                            Te acompañamos a tomar las mejores decisiones de inversión,<br/>
-                            ofreciéndote una amplia gama de instrumentos financieros<br/>
-                            según tu objetivo, plazo y perfil de riesgo.
+                            Operate in financial markets around the world quickly, safely and<br/>
+                            transparently. Get direct advice and explore new investment<br/>
+                            opportunities. Access a multiplicity of assets: bonds and stocks<br/>
+                            from developed and emerging countries, ETFs, global custody<br/>
+                            funds, derivatives, commodities, crypto and more.
                         </p>
                     </div>
-                    <div class="absolute md:top-12 lg:-top-20 xl:-top-16 right-0 z--1">
-                        <img src="img/Cucchiara2_Mesa.png" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
-                    </div>
+                    {{-- <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
+                        <img src="img/Animacion Cucchiara_Mesa de trabajo 1.png" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
+                    </div> --}}
                     <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
                 </div>
                 <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
-                        Nosotros
+                        About Us
                     </span>
                     <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
-                            <span class="font-bold">Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación</span> que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
+                            <span class="font-bold">Sekoia Agente de Valores S.A.</span> is a broker-dealer operating under the authorization
+                            and supervision of the Central Bank of Uruguay as a Broker Dealer since 2009. The
+                            firm specializes in the trading of financial instruments authorized by major
+                            international markets, collaborating with banks, brokers, and counterparts of the
+                            highest reputation.
                         </p>
                     </div>
                 </div>
@@ -38,81 +44,80 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container absolute inset-x-0 fieldset z-30 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64">
+    <div class="container absolute inset-x-0 fieldset z-30 xxs:px-0 lg:px-28 xl:px-48 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64">
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
-            Lo que hacemos
-        </span>    
-        <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+            What we do
+        </span>
+        <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-16 md:pt-12">
+            <div class="flex flex-col justify-center items-center shadow-amplia bg-white rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-12">
+                <div>
+                    <img src="{{ asset('/img/card_01.png') }}" alt="card_01" class="w-28"/>
+                </div>
+                <div class="flex items-center text-center">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Administración<br/>de cartera
+                        Portfolio<br/>Assessment
                     </h3>
                 </div>
-                <div>
-                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
-                </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+            <div class="flex flex-col justify-center items-center shadow-amplia bg-white rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-12">
+                <div>
+                    <img src="{{ asset('/img/card_02.png') }}" alt="card_02" class="w-28"/>
+                </div>
+                <div class="flex items-center text-center">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Research
                     </h3>
                 </div>
-                <div>
-                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
-                </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+            <div class="flex flex-col justify-center items-center shadow-amplia bg-white rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-12">
+                <div>
+                    <img src="{{ asset('/img/card_03.png') }}" alt="card_03" class="w-28"/>
+                </div>
+                <div class="flex items-center text-center">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Operaciones<br/>financieras
+                        Operaciones financieras 
                     </h3>
                 </div>
-                <div>
-                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
-                </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Fondos comunes<br/>de inversión
-                    </h3>
-                </div>
+            <div class="flex flex-col justify-center items-center shadow-amplia bg-white rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-12">
                 <div>
-                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_04.png') }}" alt="card_03" class="w-28"/>
+                </div>
+                <div class="flex items-center text-center">
+                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
+                        Fondos comunes<br>de inversión
+                    </h3>
                 </div>
             </div>
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-34 xs:h-c-34 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[40rem]"></div>
+    <div class="xxs:h-64 xs:h-56 sm:h-60 md:h-40 lg:h-60 xl:h-60"></div>
     {{-- open account --}}
-    <div class="container text-center">
-        <span class="font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
+    <div class="container text-center pt-64">
+        <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
             Abrí tu cuenta hoy
         </span>
-        <div class="mx-auto bg-white xxs:py-20 xs:py-20 sm:py-20 md:py-20 lg:py-20 xl:py-20">
+        <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20">
             <div class="grid grid-cols-4 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconphone.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconarrows.png') }}" class="mx-auto xxs:h-10 xs:h-c-4 md:h-20 lg:h-[6.5rem] xl:h-44" alt="icon award"/>
-                    </div>
-                    
-                </div>
-                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
-                    <div>
-                        <img src="{{ asset('/img/iconbars.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconboxes.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                    <div>
+                        <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
                     </div>
                 </div>
             </div>
@@ -146,7 +151,7 @@
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
                 <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
-                    ¿Qué necesitas <br>para abrir tu <br>cuenta?                  
+                    ¿Qué necesitas <br>para abrir tu <br>cuenta?
                 </h2>
             </div>
             <div class="flex xxs:gap-0 sm:gap-2">
@@ -154,12 +159,12 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
-                                    <img src="{{ asset('/img/personas.png') }}" alt="development icon"/>
+                                <div class="relative flex justify-center -top-16">
+                                    <img src="{{ asset('/img/personas.png') }}" class="h-36" alt="development icon"/>
                                 </div>
-                                <div class="text-center">
-                                    <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
-                                        Personas<br/>Físicas
+                                <div class="relative flex justify-center items-center -top-10 ">
+                                    <h3 class=" font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
+                                        Personas<br/>Humanas
                                     </h3>
                                 </div>
                             </div>
@@ -167,15 +172,16 @@
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
-                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
+                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
+                                        · Constancia de ingresos.<br/>
                                         · Documento de Identidad.<br/>
-                                        · Verificación de domicilio.<br/>
-                                        · Justificación de ingresos y patrimonio.<br/>
-                                        · En caso de contar con apoderado, documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.
+                                        · En caso de contar con apoderado, fotocopia del documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.<br/>
+                                        · Copias de las últimas Declaraciones Juradas impositivas (Ganancias y Bienes Personales).<br>
+                                        · Verificación de domicilio.
                                     </p>
                                 </div>
-                                <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-8">
-                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs">Abrir cuenta</a>
+                                <div class="text-right xs:pt-0-5 lg:pt-4 px-9 pb-4 underline underline-offset-4">
+                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Abrir cuenta</a>
                                 </div>
                             </div>
                         </div>
@@ -185,10 +191,10 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
-                                    <img src="{{ asset('/img/contratos.png') }}" alt="development icon"/>
+                                <div class="relative flex justify-center -top-16">
+                                    <img src="{{ asset('/img/contratos.png') }}" class="h-36" alt="development icon"/>
                                 </div>
-                                <div class="text-center">
+                                <div class="relative flex justify-center items-center -top-10">
                                     <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
                                         Personas<br/>Jurídicas
                                     </h3>
@@ -197,32 +203,31 @@
                         </div>
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
-                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
-                                        · Actas de Directorio / Asamblea con designación de cargos.<br/>
-                                        · Estatuto de la Sociedad.<br/>
-                                        · Registro de accionistas actualizado.<br/>
-                                        · Estados contables.<br/>
-                                        · Verificación de domicilio de la sociedad.<br/>
-                                        · De los representantes de la sociedad y beneficiarios finales. 
-                                    </p>
-                                    <p class="font-body xxs:text-xxs xs:text-xxs pl-4 sm:text-xxs lg:text-xs">
-                                        · Documento de identidad<br/>
-                                        · Verificación de domicilio
+                                <div class="text-left text-white xs:px-1 sm:px-1 xxs:pt-1 xs:pt-1 sm:pt-1 md:pt-1 md:px-1 lg:px-1 lg:pt-1">
+                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
+                                        · Estatuto de la Sociedad, con constancia de su inscripción en el Registro Público de Comercio correspondiente a la jurisdicción del domicilio de la sede social.<br/>
+                                        · Registro de Accionistas actualizado a la fecha de apertura de cuenta.<br/>
+                                        · Acta de Asamblea aprobando el último Balance General conjuntamente con el Acta de Directorio que lo aprobó.<br/>
+                                        · Actas de Asamblea y Directorio con distribución de cargos actualmente vigente para los órganos de administración y fiscalización.<br/>
+                                        · Documento de Identidad y constancia de domicilio del/los representantes legales.<br/>
+                                        · Para casos de apoderados, vigencia del poder, documento de identidad y constancia de domicilio de los apoderados.<br/>
+                                        · Estados Contables que deberán estar certificados por auditor externo y legalizados por el Consejo Profesional correspondiente.<br/>
+                                        · Copia de declaraciones juradas del Impuesto a las Ganancias.<br/>
+                                        · Constancia de domicilio de la Sociedad.
                                     </p>
                                 </div>
-                                <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-8">
-                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs">Abrir cuenta</a>
+                                <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-4">
+                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Abrir cuenta</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
     </div>
-    {{-- end need --}} 
-     {{-- last research --}}
+    {{-- end need --}}
+    {{-- last research --}}
     <div class="bg-white">
         <div class="container py-16 md:py-20">
             <h3 class="text-left font-header text-xl font-bolder sm:text-xl lg:text-3xl text-color-cucchiara">
@@ -237,6 +242,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -250,6 +256,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -266,6 +273,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
