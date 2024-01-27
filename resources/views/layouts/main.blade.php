@@ -42,22 +42,22 @@
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
                             <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
-                                Abrir cuenta
+                                Open Account
                             </a>
-                            <a href="/iniciarsesion" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
-                                Ingresar
+                            <a href="/login" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
+                                Log in
                             </a>
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-color-cucchiara group pl-6">
                                         <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
-                                            ESP
+                                            ENG
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-1 pl-4" href="/eng">
-                                                    ENG
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-1 pl-4" href="/esp">
+                                                    ESP
                                                 </a>
                                             </li>
                                         </ul>
@@ -78,33 +78,33 @@
                             <ul class="flex items-center pt-5 nav-fondos">
                                 <li class="group pl-20">
                                     <a href="/nosotros">
-                                        <span @if(request()->is('nosotros')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
+                                        <span @if(request()->is('nosotros')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>About Us</span>
                                     </a>
                                 </li>
                                 <li class="group pl-20">
                                     <a href="/servicios">
-                                        <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Servicios</span>
+                                        <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Services</span>
                                     </a>
                                 </li>
                                 <li class="group pl-20 text-color-cucchiara">
                                     <a class="flex items-center justify-center rounded bg-white text-base font-bold hover:bg-cyan-20 px-5 my-1">
-                                        Fondos
+                                        Mutual Funds
                                         <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                     </a>
                                     <ul>
                                         <li class="text-color-cucchiara text-base font-bold w-56 my-1">
                                             <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/rentaglobal">
-                                                Renta Global
+                                                Global Rent
                                             </a>
                                         </li>
                                         <li class="text-color-cucchiara text-base font-bold w-56 my-1">
                                             <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/accionesglobales">
-                                                Acciones Globales
+                                                Global Action
                                             </a>
                                         </li>
                                         <li class="text-color-cucchiara text-base font-bold w-56 my-1">
                                             <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/rentafijaargentina">
-                                                Renta Fija Argentina
+                                                Fixed Rent Argentina
                                             </a>
                                         </li>
                                     </ul>
@@ -130,17 +130,17 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/nosotros"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
+                                <a href="/nosotros"><span class="cursor-pointer font-body font-semibold text-white">About Us</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
+                                <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
                             </li>
                             <li class="py-4">
-                                <a href=""><span class="font-body font-semibold text-white">Fondos</span></a>
+                                <a href=""><span class="font-body font-semibold text-white">Mutual Funds</span></a>
                                 <ul>
                                     <li class="mt-2 pl-6"><a href="/rentaglobal" class="cursor-pointer text-white">Renta Global</a></li>
-                                    <li class="mt-2 pl-6"><a href="/accionesglobales" class="cursor-pointer text-white">Acciones Globales</a></li>
-                                    <li class="mt-2 pl-6"><a href="/rentafijaargentina" class="cursor-pointer text-white">Renta Fija Argentina</a></li>
+                                    <li class="mt-2 pl-6"><a href="/accionesglobales" class="cursor-pointer text-white">Global Actions</a></li>
+                                    <li class="mt-2 pl-6"><a href="/rentafijaargentina" class="cursor-pointer text-white">Fixed Rent Argentina</a></li>
                                 </ul>
                             </li>
                             <li class="py-4">
@@ -169,24 +169,24 @@
                     <div class="container bg-contact sm:pl-32 sm:pr-32 xxs:pl-8 xxs:pr-8" id="contact">
                         <div class="relative xs:top-minus-1-2 top-minus-11">
                             <h2 class="text-color-cucchiara text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
-                                Contacto
+                                Contact
                             </h2>
                         </div>
                         <form class="mx-auto w-full pt-10" action="/contact" method="POST" role="form">
                             {{ csrf_field() }}
                             <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-start justify-center">
                                 <div class="flex flex-col md:flex-col xxs:w-full mr-4">
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
+                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom" placeholder="Name and Last*" type="text" name="name" id="name"/>
                                     <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Email*" type="text" name="email" id="email"/>
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
+                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Phone*" type="text" name="phone" id="phone"/>
                                 </div>
                                 <div class="xs:ml-0 sm:ml-4 xxs:mt-8 xs:mt-8 sm:mt-0 sm:w-full md:w-full">
-                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="160" rows="10"></textarea>
+                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Message" type="text" name="message" id="message" cols="160" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">
                                 <button class="mt-6 flex items-center justify-center rounded py-3 font-body text-lg font-bold text-grey-custom underline underline-offset-4">
-                                    Enviar
+                                    Send
                                 </button>
                             </div>
                         </form>
@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/regulaciones">
-                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones</div>
+                                        <div class="pt-1 font-bold">Regulations<br/>Fees and commissions</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">

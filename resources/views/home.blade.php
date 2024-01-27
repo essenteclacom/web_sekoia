@@ -75,7 +75,7 @@
                 </div>
                 <div class="flex items-center text-center">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Operaciones financieras 
+                        Financial Operations 
                     </h3>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="flex items-center text-center">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Fondos comunes<br>de inversión
+                        Mutual<br>Funds
                     </h3>
                 </div>
             </div>
@@ -96,7 +96,7 @@
     {{-- open account --}}
     <div class="container text-center pt-64">
         <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
-            Abrí tu cuenta hoy
+            Open account today
         </span>
         <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20">
             <div class="grid grid-cols-4 gap-0 content-start">
@@ -121,25 +121,25 @@
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-4 gap-0 justify-content items-center mt-4">
+            <div class="grid grid-cols-4 gap-0 justify-content items-start mt-4">
                 <div class="">
                     <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                        Abrí tu<br>cuenta
+                        Open your<br>account
                     </h4>
                 </div>
                 <div class="">
                     <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-8">
-                        Asesorate
+                        Get financial<br>advice
                     </h4>
                 </div>
                 <div class="">
                     <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                        Definí tu cartera<br/>de inversión
+                        Define your investment<br/>portfolio
                     </h4>
                 </div>
                 <div class="">
                     <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                        Monitoreá<br/>tus inversiones
+                        Monitor your<br/>investments
                     </h4>
                 </div>
             </div>
@@ -151,7 +151,7 @@
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
                 <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
-                    ¿Qué necesitas <br>para abrir tu <br>cuenta?
+                    What do you need<br>to open your<br>account?
                 </h2>
             </div>
             <div class="flex xxs:gap-0 sm:gap-2">
@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="relative flex justify-center items-center -top-10 ">
                                     <h3 class=" font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
-                                        Personas<br/>Humanas
+                                        Individuals
                                     </h3>
                                 </div>
                             </div>
@@ -196,7 +196,7 @@
                                 </div>
                                 <div class="relative flex justify-center items-center -top-10">
                                     <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
-                                        Personas<br/>Jurídicas
+                                        Corporate
                                     </h3>
                                 </div>
                             </div>
@@ -231,7 +231,7 @@
     <div class="bg-white">
         <div class="container py-16 md:py-20">
             <h3 class="text-left font-header text-xl font-bolder sm:text-xl lg:text-3xl text-color-cucchiara">
-                Últimos Informes de Research
+                Latest Research reports
             </h3>
             <div class="mx-auto grid w-full grid-cols-3 pt-4 w-full xxs:gap-2 xl:gap-10">
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
@@ -301,12 +301,12 @@
         <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center xl:pr-60 xl:pl-52">
             <div>
                 <h2 class="text-white font-body xxs:text-2xl xs:text-3xl lg:text-5xl font-bolder">
-                    Recibí nuestros<br/>informes
+                    Receive our weekly<br/>Newsletter
                 </h2>
             </div>
             <div class="text-right">
                 <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring xxs:px-4 sm:px-12 py-2 text-center">
-                    Suscribite
+                    Subscribe
                 </button>
             </div>
         </div>

@@ -26,7 +26,16 @@ class EspController extends Controller {
                 return redirect('investigacion');
                 break;
             case "regulations":
-                return redirect('normativas');
+                return redirect('regulaciones');
+                break;
+            case "globalrent":
+                return redirect('rentaglobal');
+                break;
+            case "globalaction":
+                return redirect('accionesglobales');
+                break;
+            case "fixedrentargentina":
+                return redirect('rentafijaargentina');
                 break;
             case "selectaccounttype":
                 return redirect('seleccionartipocuenta');

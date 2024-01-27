@@ -25,8 +25,17 @@ class EngController extends Controller {
             case "investigacion":
                 return redirect('research');
                 break;
-            case "normativas":
+            case "regulaciones":
                 return redirect('regulations');
+                break;
+            case "rentaglobal":
+                return redirect('globalrent');
+                break;
+            case "accionesglobales":
+                return redirect('globalaction');
+                break;
+            case "rentafijaargentina":
+                return redirect('fixedrentargentina');
                 break;
             case "seleccionartipocuenta":
                 return redirect('selectaccounttype');
