@@ -69,7 +69,7 @@
                 </div>
                 <div class="flex items-center text-center">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Operaciones financieras 
+                        Operaciones financieras
                     </h3>
                 </div>
             </div>
@@ -167,11 +167,11 @@
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
-                                        · Constancia de ingresos.<br/>
-                                        · Documento de Identidad.<br/>
-                                        · En caso de contar con apoderado, fotocopia del documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.<br/>
-                                        · Copias de las últimas Declaraciones Juradas impositivas (Ganancias y Bienes Personales).<br>
-                                        · Verificación de domicilio.
+                                        · Documento de Identidad.<br>
+                                        · Constancia de ingresos.<br>
+                                        · Constancia de domicilio.<br>
+                                        · Opcional: copias últimas DDJJ (Ganancias y Bienes Personales)<br>
+                                        · Apoderados: documento de Identidad y poder ante Escribano Público.
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0-5 lg:pt-4 px-9 pb-4 underline underline-offset-4">
@@ -197,16 +197,15 @@
                         </div>
                         <div class="back-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-1 sm:px-1 xxs:pt-1 xs:pt-1 sm:pt-1 md:pt-1 md:px-1 lg:px-1 lg:pt-1">
+                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xxs">
-                                        · Estatuto de la Sociedad, con constancia de su inscripción en el Registro Público de Comercio correspondiente a la jurisdicción del domicilio de la sede social.<br/>
-                                        · Registro de Accionistas actualizado a la fecha de apertura de cuenta.<br/>
-                                        · Acta de Asamblea aprobando el último Balance General conjuntamente con el Acta de Directorio que lo aprobó.<br/>
-                                        · Actas de Asamblea y Directorio con distribución de cargos actualmente vigente para los órganos de administración y fiscalización.<br/>
-                                        · Documento de Identidad y constancia de domicilio del/los representantes legales.<br/>
-                                        · Para casos de apoderados, vigencia del poder, documento de identidad y constancia de domicilio de los apoderados.<br/>
-                                        · Estados Contables que deberán estar certificados por auditor externo y legalizados por el Consejo Profesional correspondiente.<br/>
-                                        · Copia de declaraciones juradas del Impuesto a las Ganancias.<br/>
+                                        · Estatuto de la Sociedad.<br>
+                                        · Registro de Accionistas.<br>
+                                        · Acta de Asamblea aprobando el último Balance junto con su Acta de Directorio.<br>
+                                        · Actas de Asamblea y Directorio con cargos vigentes.<br>
+                                        · Documento de Identidad y domicilio de los representantes legales.<br>
+                                        · EECC certificados por auditor externo y legalizados por Consejo Prof.<br>
+                                        · Copia de DDJJ del Impuesto a las Ganancias.<br>
                                         · Constancia de domicilio de la Sociedad.
                                     </p>
                                 </div>
