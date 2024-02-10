@@ -24,32 +24,32 @@
                             <div class="grid grid-cols-6 gap-0 content-start">
                                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                                     <div>
-                                        <img src="{{ asset('/img/icon_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                                        <img src="{{ asset('/img/icon_01.png') }}" class="w-40" alt="icon project"/>
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                                     <div>
-                                        <img src="{{ asset('/img/icon_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                                        <img src="{{ asset('/img/icon_02.png') }}" class="w-40" alt="icon award"/>
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                                     <div>
-                                        <img src="{{ asset('/img/icon_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                                        <img src="{{ asset('/img/icon_03.png') }}"class="w-40" alt="icon happy clients"/>
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                                     <div>
-                                        <img src="{{ asset('/img/icon_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                                        <img src="{{ asset('/img/icon_04.png') }}"class="w-40" alt="icon puzzle"/>
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                                     <div>
-                                        <img src="{{ asset('/img/icon_05.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                                        <img src="{{ asset('/img/icon_05.png') }}"class="w-40" alt="icon puzzle"/>
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                                     <div>
-                                        <img src="{{ asset('/img/icon_06.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                                        <img src="{{ asset('/img/icon_06.png') }}"class="w-40" alt="icon puzzle"/>
                                     </div>
                                 </div>
                             </div>

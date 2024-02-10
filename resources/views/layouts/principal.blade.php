@@ -226,25 +226,25 @@
                             </div>
                         </div>
                         <div class="border-menu-line-footer"></div>
-                        <div class="grid justify-items-center items-center gap-6 xxs:grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 py-6 px-24">
+                        <div class="grid justify-items-center items-center  xxs:grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 py-2">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>
+                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="w-36" alt="footer_01"/></div>
                                 </a>
                             </div>
                             <div>
                                 <a href="https://cajadevalores.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_02.png') }}" class="" alt="footer_02"/></div>
+                                    <div><img src="{{ asset('/img/footer_02.png') }}" class="w-36" alt="footer_02"/></div>
                                 </a>
                             </div>
                             <div>
                                 <a href="https://www.matbarofex.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="" alt="footer_03"/></div>
+                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="w-36" alt="footer_03"/></div>
                                 </a>
                             </div>
                             <div>
                                 <a href="https://www.mav-sa.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="" alt="footer_04"/></div>
+                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="w-36" alt="footer_04"/></div>
                                 </a>
                             </div>
                         </div>
