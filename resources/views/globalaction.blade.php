@@ -8,7 +8,7 @@
         <div style="background-image: url({{ asset('/img/fondoresearchfiltro.png')}}), url({{ asset('/img/accionesglobales.jpg')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify-center h-full">
                 <div class="flex flex-col justify-center items-center w-full">
-                    <h1 class="font-body text-white text-shadow font-bold text-3xl pb-4">CYC Acciones Globales</h1>
+                    <h1 class="font-body text-white text-shadow font-bold text-3xl pb-4">CYC Global Action</h1>
                     <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
                         CYC Acciones Globales is designed to provide investors with a well diversified global portfolio focused on equity. The fund CYC Acciones Globales is designed to provide investors with a well diversified global portfolio focused on equity. The fund
 diversifies its portfolio both geographically and across secotrs, with a weighting in both developed and emerging markets. diversifies its portfolio both geographically and across secotrs, with a weighting in both developed and emerging markets.

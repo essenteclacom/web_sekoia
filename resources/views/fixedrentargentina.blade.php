@@ -8,7 +8,7 @@
         <div style="background-image: url({{ asset('/img/fondoresearchfiltro.png')}}), url({{ asset('/img/fondorentafija.jpg')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify-center h-full">
                 <div class="flex flex-col justify-center items-center w-full pb-4">
-                    <h1 class="font-body text-white text-shadow font-bold text-3xl">CYC Renta Fija Argentina</h1>
+                    <h1 class="font-body text-white text-shadow font-bold text-3xl">CYC Fixed Rent Argentina</h1>
                     <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
                         Total return with an active fixed-income strategy focused on high-quality Argentine corporate bonds<br><br>
                         CyC Renta FIja Argentina seeks to provide total return with an active strategy focused on hard-dollar Argentine corporate CyC Renta FIja Argentina seeks to provide total return with an active strategy focused on hard-dollar Argentine corporate

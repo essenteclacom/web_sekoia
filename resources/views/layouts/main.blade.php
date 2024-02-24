@@ -71,18 +71,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container flex items-center justify-between border-menu-line-top mt-6 hidden lg:flex">
+                    <div class="container flex items-center justify-between border-menu-line-top mt-8 hidden lg:flex">
                         <div>
                         </div>
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5 nav-fondos">
                                 <li class="group pl-20">
-                                    <a href="/nosotros">
+                                    <a href="/aboutus">
                                         <span @if(request()->is('nosotros')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>About Us</span>
                                     </a>
                                 </li>
                                 <li class="group pl-20">
-                                    <a href="/servicios">
+                                    <a href="/services">
                                         <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Services</span>
                                     </a>
                                 </li>
@@ -93,24 +93,24 @@
                                     </a>
                                     <ul>
                                         <li class="text-color-cucchiara text-base font-bold w-56 my-1">
-                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/rentaglobal">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/globalrent">
                                                 Global Rent
                                             </a>
                                         </li>
                                         <li class="text-color-cucchiara text-base font-bold w-56 my-1">
-                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/accionesglobales">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/globalaction">
                                                 Global Action
                                             </a>
                                         </li>
                                         <li class="text-color-cucchiara text-base font-bold w-56 my-1">
-                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/rentafijaargentina">
+                                            <a class="bg-white hover:bg-cyan-20 flex items-center justify-start rounded pr-41-custom py-2 pl-5" href="/fixedrentargentina">
                                                 Fixed Rent Argentina
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="group pl-20">
-                                    <a href="/investigacion">
+                                    <a href="/research">
                                         <span @if(request()->is('investigacion')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
                                     </a>
                                 </li>
@@ -130,21 +130,21 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/nosotros"><span class="cursor-pointer font-body font-semibold text-white">About Us</span></a>
+                                <a href="/aboutus"><span class="cursor-pointer font-body font-semibold text-white">About Us</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
+                                <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
                             </li>
                             <li class="py-4">
                                 <a href=""><span class="font-body font-semibold text-white">Mutual Funds</span></a>
                                 <ul>
-                                    <li class="mt-2 pl-6"><a href="/rentaglobal" class="cursor-pointer text-white">Renta Global</a></li>
-                                    <li class="mt-2 pl-6"><a href="/accionesglobales" class="cursor-pointer text-white">Global Actions</a></li>
-                                    <li class="mt-2 pl-6"><a href="/rentafijaargentina" class="cursor-pointer text-white">Fixed Rent Argentina</a></li>
+                                    <li class="mt-2 pl-6"><a href="/globalrent" class="cursor-pointer text-white">Renta Global</a></li>
+                                    <li class="mt-2 pl-6"><a href="/globalaction" class="cursor-pointer text-white">Global Actions</a></li>
+                                    <li class="mt-2 pl-6"><a href="/fixedrentargentina" class="cursor-pointer text-white">Fixed Rent Argentina</a></li>
                                 </ul>
                             </li>
                             <li class="py-4">
-                                <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
+                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
                             </li>
                         </ul>
                     </div>

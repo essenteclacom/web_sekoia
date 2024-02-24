@@ -14,13 +14,13 @@
             </div>
         </div>
         <div class="bg-secondary">
-            <div class="container">
+            <div class="container xxs:px-20 lg:px-32 xl:px-56">
                 <div class="flex flex-row lg:px-40 py-32 items-center justify-center">
                     <div class="text-white xs:pr-3 lg:pr-20">
                         <div class="text-xl font-bold text-right max-w-3xl">
                             Asesoramiento<br/>de carteras
                         </div>
-                        <div class="xxs:text-xs xs:text-base sm:text-base text-right max-w-sm pt-5">
+                        <div class="xxs:text-xs xs:text-base sm:text-base text-right max-w-3xl pt-5" >
                             Contamos con un equipo de profesionales de calidad a disposición de nuestros clientes para ofrecerles una amplia gama de soluciones de inversión, una visión de largo plazo y una búsqueda constante de rentabilidad mediante el armado de estrategias y manejo de carteras de renta fija y variable.
                         </div>
                     </div>
@@ -37,10 +37,11 @@
                         <div class="text-xl font-bold text-left max-w-3xl">
                             Research
                         </div>
-                        <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-sm pt-5">
+                        <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-3xl pt-5">
                             Análisis macroeconómico local e internacional, seguimiento y monitoreo de los mercados y sectores de la economía con el objetivo de apoyar la toma de decisiones de nuestros clientes.
                         </div>
                     </div>
+                    
                 </div>
                 <div class="border border-services-c"></div>
                 <div class="container flex flex-row lg:px-40 py-32 items-center justify-center">
@@ -48,7 +49,7 @@
                         <div class="text-xl font-bold text-right max-w-3xl">
                             Brokerage
                         </div>
-                        <div class="xxs:text-xs xs:text-base sm:text-base text-right max-w-sm pt-5">
+                        <div class="xxs:text-xs xs:text-base sm:text-base text-right max-w-3xl pt-5">
                             Entre los instrumentos negociados, listados en Mercados de diferentes partes del mundo u operados mediante negociación bilateral (over the counter), se destacan los Títulos Públicos, Acciones, Bonos Corporativos, Opciones, ETF, Futuros, Fondos de Inversión y Productos Estructurados.
                         </div>
                     </div>
@@ -65,7 +66,7 @@
                         <div class="text-xl font-bold text-left max-w-3xl">
                             Fondos comúnes de inversión
                         </div>
-                        <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-sm pt-5">
+                        <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-3xl pt-5">
                             Administramos nuestra propia gama de fondos de inversión, proporcionando soluciones de inversión a todos nuestros clientes. Los fondos pueden ser custodiados por entidades internacionales, lo que garantiza su accesibilidad y conveniencia. La instrumentación de cada fondo se realiza a traves de notas financieras estructuradas gestionadas por FlexFund. Por su parte The Bank of New York Mellon y Interactive Brokers actúan como custodios de los activos de renta fija y renta variable, respectivamente. Esta instrumentación minimiza los costos para el inversor al tiempo que maximiza la flexibilidad operacional.
                         </div>
                     </div>

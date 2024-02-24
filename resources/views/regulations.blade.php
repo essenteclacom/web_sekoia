@@ -13,15 +13,16 @@
                 <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
             </div>
         </div>
-        <div class="bg-secondary">
+        <div class="bg-primary">
             <div class="container">
-                <div class="text-white xs:pr-0 lg:pr-20 pt-32">
-                    <div class="text-xl font-bold max-w-3xl xxs:text-center xs:text-center sm:text-left md:text-left lg:text-left xl:text-left">
+                <div class="flex flex-col xxs:items-center xs:items-center sm:items-start md:items-start lg:items-start xl:items-start justify-center pt-5 pb-32">
+                    <div class="text-white xs:pr-0 lg:pr-20 pt-32 pb-10">
+                        <div class="text-xl font-bold max-w-3xl xxs:text-center xs:text-center sm:text-left md:text-left lg:text-left xl:text-left">
                         Regulation
                     </div>
                 </div>
-                <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row xxs:items-center xs:items-center sm:items-start md:items-start lg:items-start xl:items-start justify-center pt-5 pb-32">
-                    <div class="text-white xs:pr-0 lg:pr-20">
+                <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row">
+                    <div class="text-white xs:pr-0 lg:pr-20 pb-16">
                         <div class="text-base xxs:text-center xs:text-center sm:text-left md:text-left lg:text-left xl:text-left max-w-3xl">
                             In Uruguay, the regulation of Broker Dealer falls under the jurisdiction of the Superintendencia de Servicios Financieros (SSF), an entity belonging to the Banco Central del Uruguay (BCU). The regulation aims to ensure a strong, ethical, and transparent financial environment, thus protecting the interests of both investors and the market at large.<br><br>
                             To operate, Broker Dealers must obtain the corresponding authorization from the SSF, meeting rigorous requirements for capital, infrastructure, and operational capacity. This process ensures the financial strength of agents and their ability to handle potential contingencies. Under this legal framework, Sekoia Agente de Valores S.A. is registered as a Broker Dealer in the Registro del Mercado de Valores, Section Stock Exchanges and Intermediaries of the Banco Central del Uruguay.<br><br>

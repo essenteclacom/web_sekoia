@@ -14,9 +14,9 @@
                         </h2>
                         <div class="xxs:pt-6 xs:pt-6 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-10">
                             <p class="font-body text-white text-center text-shadow xs:text-xs md:text-lg lg:text-lg xl:text-lg pb-24">
-                                Sekoia obtained authorization from the CentralBank of Uruguay as aBroker Dealer, starting its operations in
+                                Sekoia obtained authorization from the Central Bank of Uruguay as a Broker Dealer, starting its operations in
 international markets in 2009. The firm shares its history and originates from Cucchiara y Cía S.A., a Negotiation,
-Settlement, and ClearingAgent with over 50 years of experience in the Argentine financial market.
+Settlement, and Clearing Agent with over 50 years of experience in the Argentine financial market.
                             </p>
                         </div>
                         <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/map_about.png')}}')"></div>
