@@ -86,32 +86,38 @@
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-64 xs:h-56 sm:h-60 md:h-40 lg:h-60 xl:h-60"></div>
+    <div class="xxs:h-112 xs:h-112 sm:h-96 md:h-72 lg:h-96 xl:h-[30rem]"></div>
     {{-- open account --}}
-    <div class="container text-center pt-64">
-        <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
+    <div class="container text-center">
+        <span class="font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
             Abrí tu cuenta hoy
         </span>
-        <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20">
+        <div class="pic-ctn md:hidden sm:visible flex justify-center mt-8">
+            <img src="{{ asset('/img/iconosopenaccount-01.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+            <img src="{{ asset('/img/iconosopenaccount-02.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+            <img src="{{ asset('/img/iconosopenaccount-03.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+            <img src="{{ asset('/img/iconosopenaccount-04.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+          </div>
+        <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20 md:block xxs:hidden">
             <div class="grid grid-cols-4 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="open_account_01"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                        <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="open_account_02"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="open_account_03"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="open_account_04"/>
                     </div>
                 </div>
             </div>
